@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script charset="utf-8" src="kindEditor/kindeditor-all-min.js"></script>
+<script charset="utf-8" src="kindEditor/kindeditor-all.js"></script>
+<script charset="utf-8" src="kindEditor/lang/zh-CN.js"></script>
+<script>
+var editor;
+KindEditor.ready(function(k){
+	editor=k.create('textarea',{
+		allowImageUpload:false,
+		items:[
+		'fontname','fontsize','|','forecolor','hilitecolor','bold','italic','underline','removeformat','|','justifyleft','justifycenter',
+		'justifyright','insertorderedlist','insertunorderdlist','|','emoticons','image','link']
+	})
+})
+
+</script>
+</head>
+
+<body>
+<textarea cols="50" rows="10"></textarea>
+</body>
+</html>
